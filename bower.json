@@ -1,0 +1,43 @@
+{
+  "name": "jquery-ui-keyboard",
+  "description": "An on screen keyboard widget based on jQuery UI Framework",
+  "main": [
+    "dist/jquery.ui.keyboard.js",
+    "dist/jquery.ui.keyboard.css"
+  ],
+  "authors": [
+    "Yannick Ebongue <yannickebongue@yahoo.fr>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "jquery",
+    "jquery-plugin",
+    "keyboard",
+    "on-screen",
+    "ui",
+    "virtual",
+    "widget"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yannickebongue/jquery-ui-keyboard.git"
+  },
+  "homepage": "https://github.com/yannickebongue/jquery-ui-keyboard",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "external",
+    "test",
+    "Gruntfile.js",
+    "package.json"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "jquery-ui": "^1.12.1"
+  },
+  "devDependencies": {
+    "qunit": "^2.4.0",
+    "requirejs": "^2.3.5"
+  }
+}

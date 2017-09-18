@@ -1,0 +1,14 @@
+.ui-keyboard {
+    position: absolute;
+}
+
+.ui-keyboard-inline {
+    display: inline-block;
+    position: relative;
+}
+
+/* IE Only */
+
+.ui-keyboard-output::-ms-clear {
+    display: none;
+}
